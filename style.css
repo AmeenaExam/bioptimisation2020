@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Barlow', sans-serif;
+    width: 100%;
+    height: 100vh;
+}
+li{
+    list-style-type: none;
+}
+a{ 
+    text-decoration: none;
+    color:#5d5447 ;
+}
+nav{
+    display: flex;
+    justify-content: center;
+}
+/****************************************************Menu**********************************************************/
+header nav ul li{
+    display: inline-block;
+    margin-left: 2rem;
+    font-size: 1.2rem;
+    position: relative;
+    margin-top: 3rem;
+    
+}
+header nav ul li a:hover{
+    border-bottom: solid 3px #2e9da7;
+    padding-bottom: 1.5rem ;
+}
+header nav li:hover .sousmenu{
+    visibility: visible;
+    display: block;
+}
+.sousmenu{
+    visibility: hidden;
+    position: absolute;
+ }
+header{
+    background-image:linear-gradient(rgba(198, 198, 198, 0.5),rgba(190, 190, 190, 0.5)), url(bg_homepage_biogaz_vallee.jpg) ;
+}
+header div{
+    border: solid 1px #2e9da7;
+    width: 55%;
+    background-color: #2e9da7;
+    color: white;
+    padding: 3rem;
+    margin-top: 11rem;
+}
+header div h4{
+    font-size: 1.5rem;
+}
+header div h2{
+    font-size:2.5rem;
+}
+/***************************************Section présentation et je participe***********/
+.prepar{
+    display: flex;
+}
+.prepar p{
+    margin-top: 1.5rem;
+}
+/*********************Présentation*************************************************/
+.presentation{
+    flex: 6.5;
+}
+.prepar h3{
+    font-size: 1.7rem;
+    color: #2e9da7;
+    margin-top:  1.5rem; ;
+}
+span{
+    font-weight: bold;
+}
+.bio{
+    color: #2e9da7;
+}
+/********************************Participer**************************************************************/
+.participer{
+    flex: 3.85;
+    height:80% ;
+    background-color: #d4eff1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.lanceclo{
+    display: flex;
+    justify-content: center;
+}
+.lanceclo div{
+    margin: 0.5rem;
+}
+.compl{
+    color: #2e9da7;
+}
+.participer button{
+    margin: 3.5rem;
+    padding: 1rem;
+    font-size: 0.7rem;
+    color: white;
+    background-color: #82c4ca;
+    border: solid 1px #57b1b9;
+}
+/**********************************************Section Partenaires**************************************************************/
+.part{
+    display: flex;
+    margin-top: 2rem;
+}
+.part img{
+    width: 150px;
+    height: 50px;
+    margin: 1.5rem;
+    
+}
+.traitv{
+    border-right: solid 1px rgba(150, 150, 150, 0.664);
+}
+/**********************************Section boites*********************************************************************************/
+.ligne{
+    display: flex;
+    
+}
+.ligne div{
+    color: #2e9da7;
+    border:solid 1px #2e9da7;
+    margin: 2rem;
+    padding: 1rem;
+    font-size: 1.2rem;
+    flex: 1;
+    box-sizing: border-box;
+}
+.ligne div:hover{
+    background-color: #2e9da7;
+    color: white;
+}
+.seperateur{
+    border-bottom: solid 1px rgba(0, 0, 0, 0.21);
+    margin: 1rem;
+}
+
+/****************************************************Sections Explications************************************************************/
+.titreprin{
+    font-size: 1.3rem;
+    background-color: #2e9da7;
+    color: white;
+    margin: 2rem;
+    padding: 0.5rem;
+}
+.explication{
+    display: flex;
+}
+.explication p{
+    margin: 1.5rem;
+}
+.clair{
+    color: #2e9da7;
+    background-color: #d4eff1;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    font-size: 1.3rem;
+    padding: 0.7rem;
+}
+.fonce{
+    color: white;
+    background-color: #2e9da7;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    font-size: 1.3rem;
+    padding: 0.7rem;
+}
+.clairfonce{
+    margin: 3rem;
+}
+.retoursom{
+    text-decoration: underline;
+    text-align: end;
+}
+.retoursom :hover{
+    color: #2e9da7;
+}
+.explication2{
+    margin:1.5rem ;
+}
+.explication2 p{
+    margin: 1rem;
+}
+
+.section3 img{
+ margin-left: 30%;
+}
+
+/**********************************************Footer*******************************/

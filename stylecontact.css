@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Barlow', sans-serif;
+    width: 100%;
+    height: 100vh;
+}
+li{
+    list-style-type: none;
+}
+a{ 
+    text-decoration: none;
+    color:#5d5447 ;
+}
+nav{
+    display: flex;
+    justify-content: center;
+}
+/****************************************************Menu**********************************************************/
+header nav ul li{
+    display: inline-block;
+    margin-left: 2rem;
+    font-size: 1.2rem;
+    position: relative;
+    margin-top: 3rem;
+    
+}
+header nav ul li a:hover{
+    border-bottom: solid 3px #2e9da7;
+    padding-bottom: 1.5rem ;
+}
+header nav li:hover .sousmenu{
+    visibility: visible;
+    display: block;
+}
+.sousmenu{
+    visibility: hidden;
+    position: absolute;
+ }
+header{
+    background-image:linear-gradient(rgba(198, 198, 198, 0.5),rgba(190, 190, 190, 0.5)), url(bg_contact_biogaz_vallee.jpg) ;
+}
+header div{
+    border: solid 1px #2e9da7;
+    width: 55%;
+    background-color: #2e9da7;
+    color: white;
+    padding: 3rem;
+    margin-top: 11rem;
+}
+header div h2{
+    font-size: 1.2rem;
+}
+header div h3{
+    font-size:1rem;
+}
+header div h1{
+    font-size: 3.5rem;
+}
+/****************************************************CORPS**********************************************/
+section,footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+}
+section h1{
+    color: #2e9da7;
+    font-size: 1.8rem;
+}
+section p{
+    color: #96c1c7 ;
+}
+
+
+section form h4{
+    background-color: #2e9da7;
+    padding: 1rem;
+}
+section form div input{
+    padding: 1rem;
+    margin-top: 0.2rem;
+}
+
+section form button{
+    padding: 1rem;
+    color: white;
+    background-color: #2e9da7;
+    border: none;
+}
+
+footer{
+    background-color:#333333 ;
+    padding: 1.5rem;
+    color: white;
+}
